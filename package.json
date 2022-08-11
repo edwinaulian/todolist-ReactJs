@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "npm run cleanup && vite build",
-    "cleanup": "rd /s /q build",
+    "build": "npm run cleanup && vite dist",
+    "cleanup": "rd /s /q dist",
     "serve": "vite preview"
   },
   "dependencies": {
