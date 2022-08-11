@@ -10,5 +10,5 @@ export default defineConfig({
       '@': '/src'
     }
   },
-  base: process.env.NODE_ENV === 'production' ? 'https://cdn.statically.io/gh/edwinauliano/tolisinih/main/dist/' : '/'
+  base: process.env.NODE_ENV === 'production' ? 'https://cdn.statically.io/gh/edwinauliano/todolistapp-21a21/main/dist/' : '/'
 })

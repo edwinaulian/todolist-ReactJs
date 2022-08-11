@@ -1,11 +1,11 @@
 {
-  "name": "tolisinih",
+  "name": "todolistapp-21a21",
   "license": "MIT",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn cleanup && vite build",
-    "cleanup": "rm -rf ./dist",
+    "build": "npm run cleanup && vite build",
+    "cleanup": "rd /s /q build",
     "serve": "vite preview"
   },
   "dependencies": {
