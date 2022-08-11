@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist-ssr
+*.local
+
+# Firebase
+*.firebase
+
+# Log
+*.log
+
+# Exclude .firebase folder
+/.firebase

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold md:text-4xl text-neutral-700;
+  }
+
+  h2 {
+    @apply text-xl font-bold md:text-3xl text-neutral-700;
+  }
+
+  h3 {
+    @apply text-lg font-bold md:text-xl text-neutral-700;
+  }
+
+  body {
+    @apply overflow-x-hidden antialiased bg-neutral-100 text-neutral-600;
+  }
+}
+
+@layer utilities {
+  .layout {
+    @apply w-11/12 max-w-5xl mx-auto;
+  }
+}
