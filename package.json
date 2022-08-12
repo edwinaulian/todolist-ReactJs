@@ -1,16 +1,21 @@
 {
-  "name": "todolistapp-21a21",
+  "name": "applisttodo-43d3f",
   "license": "MIT",
   "version": "0.0.0",
+  "homepage": "http://edwinaulian.github.io/todolist-ReactJs",
+  "private":true,
   "scripts": {
-    "dev": "vite",
-    "build": "npm run cleanup && vite dist",
+    "dev": "vite --port 3001",
+    "build": "npm run cleanup && vite build --target=es2020",
     "cleanup": "rd /s /q dist",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
     "axios": "^0.24.0",
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21",
     "react": "16.14.0",
     "react-dom": "16.14.0",

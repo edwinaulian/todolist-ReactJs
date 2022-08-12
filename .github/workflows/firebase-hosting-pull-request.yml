@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TODOLISTAPP_21A21 }}'
-          projectId: todolistapp-21a21
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_APPLISTTODO_43D3F }}'
+          projectId: applisttodo-43d3f
